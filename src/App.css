@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body{
+    background-color: #0e1933;
+background-image: url(./attachment/bg.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: wheat;
+}
+h2{
+    font-family: 'Josefin Slab', serif;
+    color: wheat;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.par{
+    font-family: 'Josefin Slab', serif;
+    color: wheat;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .btn:hover {
+        background-color: rgba(255, 255, 255, 0.483);
+    }
+.slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-more{
+    background: none;
+    border: none;
+    color: rgb(236, 233, 233);
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-family: 'Josefin Slab', serif;
+    margin: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map{
+    font-family: 'Josefin Slab', serif;
+    color: wheat;
+    padding: 5px;
+    font-size: 20px;
+}
+.visited{
+    font-family: 'Josefin Slab', serif;
+    color: rgb(244, 238, 229);
+    padding: 5px;
+    font-size: 26px;
+    background: #071024;
+    border: 2px solid wheat;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-weight: bold;
+    width: 300px;
+    margin: 20px;
 }
