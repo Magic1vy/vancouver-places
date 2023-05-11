@@ -89,3 +89,18 @@ h2{
     width: 300px;
     margin: 20px;
 }
+@media all and (max-width:800px){
+    .place-image{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.75em;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    p, .visited{
+        font-size: .675em;
+    }
+}
