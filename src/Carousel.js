@@ -28,7 +28,7 @@ const Carousel = ({ picture }) => {
 return(
     <div className="slideshow-container">
     <button className='btn' onClick={previousImage}>❮</button>
-    <img src={picture[images]} alt="place" width="800px"/>
+    <img className="place-image" src={picture[images]} alt="place" width="800px"/>
     <button className='btn next' onClick={nextImage}>❯ </button>
   </div>
 )
